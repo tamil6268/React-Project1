@@ -1,4 +1,3 @@
-import '../../App.css/';
 import FoodBlogsPart1 from "../Food/Food-Blogs-Part1";
 import FoodBlogsPart2 from "../Food/Food-Blogs-Part2";
 import FoodBlogsPart3 from "../Food/Food-Blogs-Part3";
