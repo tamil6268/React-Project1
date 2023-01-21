@@ -1,0 +1,1040 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#common{
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: +10;
+  box-shadow: 0px 4px 10px rgb(190, 202, 214);
+}
+#common-nav{
+  position: sticky;
+  top: 0px;
+  text-shadow: 3px 5px 10px greenyellow;
+}
+.App {
+  padding: 50px;
+  padding-top: 20px;
+  /* background-color: green; */
+  text-align: center;
+}
+
+.the {
+  font-size: 30px;
+  transform: translateZ(10px);
+  transform: rotateZ(270deg);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.siren {
+  font-weight: bold;
+  font-size: 60px;
+  position: relative;
+  top: 8px;
+}
+
+#Nav {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 2px solid rgb(236, 233, 233);
+  border-top: 2px solid rgb(247, 244, 244);
+  font-size: 16px;
+  padding: 20px;
+  color: rgb(61, 59, 59);
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+#Nav .NavChild{
+ display: flex;
+}
+#Nav .NavChild:hover{
+  color:black;
+  font-weight: bold;
+}
+#menu{
+  display: none;
+}
+
+#Pic {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 20px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+#Pic .one {
+  width: 750px;
+  height: 420px;
+  border-radius: 10px;
+  background-image:url(./Images/124d8506-8a34-40e6-b99a-c6c63ef2fa2c_5.jpg);
+  background-position: center;
+  object-fit: cover;
+  /* background-color: violet; */
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#Pic .one .Text {
+  font-size: 34px;
+  color: white;
+  position: relative;
+  top: 265px;
+  right: 120px;
+}
+
+#Pic .one .Text .Traval {
+  color: rgb(160, 154, 154);
+  font-size: 20px;
+  position: relative;
+  right: 65px;
+}
+
+#Pic .two {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background-image:url(./Images/9eba88e5-7911-461a-9e8c-c7545dadb207_5.jpg);
+  background-position: center;
+  /* background-color: violet; */
+}
+
+#Pic .two .Text {
+  font-size: 23px;
+  color: white;
+  padding: 20px;
+  padding-top: 80px;
+  text-align: left;
+}
+
+#Pic .two .Text .Traval {
+  color: rgb(146, 143, 143);
+  font-size: 20px;
+}
+
+#Pic .three {
+  width: 400px;
+  height: 210px;
+  border-radius: 10px;
+  background-image:url(./Images/BJ89Q9bDXwV.jpg);
+  background-position: center;
+  /* background-color: violet; */
+}
+
+#Pic .three .Text {
+  font-size: 23px;
+  color: white;
+  padding: 20px;
+  padding-top: 80px;
+  text-align: left;
+}
+
+#Pic .three .Text .Traval {
+  color: rgb(156, 153, 153);
+  font-size: 20px;
+}
+
+#latest {
+  margin-top: 45px;
+}
+
+#latest .title {
+  font-size: 28px;
+  text-align: left;
+  margin-left: 45px;
+  font-weight: 600;
+  border-bottom: 2px solid tomato;
+  width: 150px;
+  padding-bottom: 10px;
+}
+
+.LatestOne {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+#grid {
+  width: 360px;
+  border: 1px solid rgb(223, 219, 219);
+}
+
+.pic {
+  height: 200px;
+  background-image:url(./Images/BPsOMahjnzA.jpg);
+  background-position:center;
+  /* background-color: violet; */
+}
+
+.font {
+  text-align: left;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 40px;
+}
+
+.paragraph {
+  text-align: left;
+  padding: 40px;
+  font-size: 18px;
+  position: relative;
+  bottom: 60px;
+}
+
+.Traval1 {
+  text-align: left;
+  position: relative;
+  bottom: 65px;
+  left: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.date {
+  color: rgb(131, 130, 128);
+}
+
+/*latest Articles*/
+.leftSide {
+  width: 65%;
+  padding-bottom: 10px;
+}
+
+.leftSide .title {
+  font-size: 28px;
+  text-align: left;
+  margin-left: 45px;
+  font-weight: 600;
+  margin-top: 25px;
+  border-bottom: 2px solid rgb(236, 233, 233);
+}
+
+/*Part1-Body*/
+.innerHtml .img {
+  width: 250px;
+  height: 225px;
+  background-image:url(./Images/burj_khalifa_aka_burj_dubai-wide.jpg);
+  background-position: center;
+  /* background-color: violet; */
+}
+
+.innerHtml {
+  display: flex;
+  padding: 20px;
+  margin-left: 20px;
+  border-bottom: 2px solid rgb(236, 233, 233);
+  width: 65%;
+}
+
+.innerHtml .align {
+  text-align: left;
+}
+
+.innerHtml .align .miniTitle {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.innerHtml .align .miniParagraph {
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.innerHtml .align .Traval {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 50px;
+  color: rgb(131, 130, 128);
+}
+
+
+
+
+/*Part2-Body*/
+.innerHtml1 .img1 {
+  width: 270px;
+  height: 160px;
+  background-image:url(./Images/burj_khalifa_aka_burj_dubai-wide.jpg);
+  background-position: center;
+  /* background-color: violet; */
+}
+
+.innerHtml1 {
+  display: flex;
+  padding: 10px;
+  margin-left: 20px;
+  border-bottom: 2px solid rgb(236, 233, 233);
+  width: 65%;
+}
+
+.innerHtml1 .align1 {
+  text-align: left;
+}
+
+.innerHtml1 .align1 .miniTitle1 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.innerHtml1 .align1 .miniParagraph1 {
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.innerHtml1 .align1 .Traval1 {
+  font-size: 12px;
+  padding-left: 0px;
+  padding-top: 90px;
+  color: rgb(131, 130, 128);
+}
+
+.rightSide {
+  width: 27%;
+  height: 700px;
+  /* background-color: lightsalmon; */
+  border: 2px solid rgb(211, 204, 204);
+  position: absolute;
+  top: 1435px;
+  left: 66%;
+  background-color: rgb(226, 214, 214);
+}
+
+.rightSide .div {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 80%;
+}
+
+/*Main box for top post*/
+#main {
+  position: absolute;
+  left: 67%;
+  top: 2180px;
+}
+
+#container {
+  width: 350px;
+  height: 100%;
+  /* background-color: cornflowerblue; */
+  border-bottom: 2px solid rgb(204, 199, 199);
+}
+
+.img {
+  width: 290px;
+  height: 170px;
+  margin-left: 25px;
+  background-image:url(./Images/124d8506-8a34-40e6-b99a-c6c63ef2fa2c_5.jpg);
+  background-position: center;
+  /* background-color: violet; */
+}
+
+#container .title {
+  font-size: 28px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid tomato;
+  width: 140px;
+}
+
+#container .Head {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+#container .Traval {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+#box {
+  width: 350px;
+  height: 100%;
+  /* background-color: cornflowerblue; */
+  border-bottom: 2px solid rgb(204, 199, 199);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+#box .img {
+  width: 140px;
+  height: 90px;
+}
+
+#box .title {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#box .travel {
+  text-align: left;
+  padding: 5px;
+}
+
+#box .travel .span {
+  color: rgb(194, 191, 188);
+}
+
+#box .one {
+  font-size: 75px;
+  font-weight: bold;
+  color: rgb(219, 215, 215);
+}
+
+#container .one {
+  font-size: 75px;
+  font-weight: bold;
+  color: rgb(219, 215, 215);
+  position: absolute;
+  left: 300px;
+  bottom: 350px;
+}
+
+.loadmore,.loadmore1{
+  position: absolute;
+  padding: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(156, 152, 152);
+}
+.loadmore:hover{
+  color: rgb(54, 53, 53);
+}
+.bigImg {
+  background-image:url(./Images/Wallpaper\ 1080p\ \(5\).jpg);
+  background-position: center;
+  /* background-color: violet; */
+  width: 800px;
+  height: 440px;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bigImg #title {
+  font-size: 34px;
+  color: white;
+  padding-top: 160px;
+}
+
+.bigImg .span {
+  color: rgb(195, 197, 199);
+}
+
+.bigImg .travel {
+  color: rgb(195, 197, 199);
+}
+
+#parent #title {
+  font-size: 28px;
+  text-align: left;
+  padding: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid tomato;
+  width: 210px;
+}
+
+#parent #flex {
+  display: flex;
+}
+
+#box1 {
+  width: 380px;
+  height: 100%;
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+#box1 .title {
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#box1 .para {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#box1 .travel {
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#box1 .travel .span {
+  color: rgb(202, 199, 196);
+}
+
+.box2 {
+  border-left: 3px solid rgb(207, 203, 203);
+  border-right: 3px solid rgb(204, 199, 199);
+}
+
+
+
+/*BollyWood*/
+#all-bollywood{
+  margin-top: 20px;
+}
+#left-section .title{
+  width: 100px;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  border-bottom: 2px solid tomato;
+}
+#right-section{
+  position: absolute;
+  top: 240px;
+  left:68%;
+}
+#Empty-container{
+  margin-top: 30px;
+  width: 370px;
+  height: 700px;
+  border: 2px solid rgb(211, 204, 204);
+  background-color: rgb(228, 224, 224);
+}
+#Empty-container .Ads{
+  font-size: 26px;
+  padding-top: 80%;
+}
+#container .one1{
+  font-size: 75px;
+  font-weight: bold;
+  color: rgb(202, 196, 196);
+  position: absolute;
+  top: 240px;
+  right: 26px;
+}
+/*MEDIA QUERY*/
+@media screen and (max-width:400px) {
+  #Empty-container{
+    display: none;
+  }
+  #right-section{
+    position: absolute;
+    top: 1300px;
+    left:1%;
+  }
+  #container .one1{
+    display: none;
+  }
+  .one{
+    display: none;
+  }
+  .bollywood{
+    position: relative;
+    top: 870px;
+    right: 10px;
+  }
+  .bollywood:hover{
+    color: black;
+  }
+  #all-bollywood{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+
+
+
+
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width:400px) {
+  #common{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: +10;
+    margin-left: 0;
+    padding: 0px;
+  }
+  .App {
+    padding: 0px;
+    text-align: left;
+    background-color: white;
+  }
+
+  .the {
+    font-size: 18px;
+  }
+
+  .siren {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+
+  #common-nav{
+    display: none;
+  }
+  #Nav {
+    width: 100%;
+    margin-left: 0px;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+    padding: 0px;
+    z-index: +2;
+    background-color: white;
+    
+  }
+
+  /*..................................................................on work*/
+  #Nav .NavChild {
+    border-bottom: 2px solid rgb(250, 247, 247);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  #Nav .NavChild:hover{
+    background-color: rgb(155, 149, 149);
+  }
+  #Nav .NavChild:nth-child(6){
+    border: none;
+  }
+
+  #Pic {
+    position: relative;
+    right: 60px;
+  }
+
+  #Pic .one {
+    width: 400px;
+    height: 300px;
+    border-radius: 2px;
+    background-image:url(./Images/124d8506-8a34-40e6-b99a-c6c63ef2fa2c_5.jpg);
+  background-position: center;
+  object-fit: cover;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Pic .one .Text {
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50px;
+  }
+
+  #Pic .one .Text .Traval {
+    font-size: 16px;
+    align-items: center;
+    position: relative;
+    top: 70%;
+    left: 0px;
+  }
+
+  #Pic .two {
+    display: none;
+  }
+
+  #Pic .three {
+    display: none;
+  }
+
+  #latest {
+    margin-top: 45px;
+  }
+
+  #latest .title {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 15px;
+    font-weight: 600;
+  }
+
+  .LatestOne {
+    margin-left: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #grid {
+    width: 330px;
+    border: 1px solid rgb(253, 251, 251);
+  }
+
+  .pic {
+    height: 180px;
+    background-image:url(./Images/BPsOMahjnzA.jpg);
+    background-position:center;
+    /* background-color: violet; */
+  }
+
+  .rightSide {
+    display: none;
+  }
+
+  .innerHtml {
+    display: none;
+  }
+
+  .bigImg {
+    display: none;
+  }
+  .loadmore1{
+    position:relative;
+    top: 10px;
+  }
+
+  #container{
+    margin-top: 260px;
+  }
+  #main{
+    position:absolute;
+    left: 10px;
+    top: 2820px;
+  }
+
+  .leftSide .title {
+    font-size: 24px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    position: relative;
+    right: 20px;
+  }
+
+  .innerHtml1 .img1 {
+    margin-left: 10px;
+    width:240px;
+    height: 90px;
+    background-image:url(./Images/burj_khalifa_aka_burj_dubai-wide.jpg);
+    background-position: center;
+    /* background-color: violet; */
+  }
+
+  .innerHtml1 {
+    width: 370px;
+    height: 160px;
+    display: flex;
+    border-bottom: 2px solid rgb(236, 233, 233);
+    position: relative;
+    right: 30px;
+  }
+
+  .innerHtml1 .align1 {
+    text-align: left;
+    padding:5px;
+  }
+
+  .innerHtml1 .align1 .miniTitle1 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+  }
+
+  .innerHtml1 .align1 .miniParagraph1 {
+    font-size: 12px;
+  }
+
+  .innerHtml1 .align1 .Traval1 {
+    font-size: 10px;
+    padding-left: 0px;
+    padding-top: 90px;
+    color: rgb(131, 130, 128);
+  }
+  #parent{
+    position: relative;
+    top: 720px;
+  }
+  #parent #flex{
+    flex-direction: column;
+  }
+  .box2 {
+    border:none;
+  }
+  #box1 {
+    width: 380px;
+    height: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  #box1 .title {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+  }
+  
+  #box1 .para {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+  }
+  
+  #box1 .travel {
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+  }
+  
+  #box1 .travel .span {
+    color: rgb(202, 199, 196);
+  }
+  #menu{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    font-weight: 600;
+  }
+}
+/*Image Attachment's*/
+.food{
+  /* background-image:url(./Images/Food/anh-nguyen-kcA-c3f_3FE-unsplash.jpg) ; */
+  background-color: red;
+}
+
+
+
+
+
+
+
+/*Extra Pages...Preparing SPA-Single Page Application*/
+/* #Home{
+  width: 90vw;
+  height: 100vh;
+  background-color: green;
+  position: absolute;
+  top: 30%;
+} */
+#Bollywood{
+  display: none;
+}
+#Technology{
+  display: none;
+}
+#Hollywood{
+  display: none;
+}
+#Fitness{
+  display: none;
+}
+#Food{
+  display: none;
+}
+/*for View additional Page*/
+#View-title{
+  display: none;
+}
+
+/*View More Content*/
+#the {
+  font-size: 20px;
+  transform: translateZ(10px);
+  transform: rotateZ(270deg);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+#siren {
+  font-weight: bold;
+  font-size: 44px;
+  position: relative;
+  top: 8px;
+}
+#ViewTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 2px solid thistle;
+  padding-bottom: 10px;
+}
+#btn{
+  width: 140px;
+  height: 40px;
+  border-radius: 7px;
+  border-color: #03A87C;
+  background-color: transparent;
+  color: #03A87C;
+}
+#View-Box{
+  margin-top: 30px;
+  display: flex;
+}
+#Front{
+   width: 350px;
+   height: 200px;
+   /* border: 3px solid black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#Center{
+   width: 600px;
+   height: 100%;
+   /* border: 3px solid black; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+#ways{
+  font-size: 30px;
+  font-weight: 600;
+  font-family:'Times New Roman', Verdana, sans-serif;
+  text-align: center;
+}
+#Box-Profile{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#Profile,#Profile1,#Profile2{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+#Name{
+  text-align: left;
+  padding-left: 10px;
+}
+#Icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#Icons div{
+  width: 30px;
+  height: 30px;
+}
+#View-React-Logo{
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#View-Para,#View-Para1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  width: 450px;
+  font-size: 18px;
+  margin-left: 90px;
+}
+#View-Para1{
+  margin-top: 20px;
+}
+#View-Btn{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+#View-Btn button{
+  width: 70px;
+  height: 30px;
+  margin: 10px;
+  background-color: #d8d3d3;
+  border: none;
+  border-radius: 2px;
+  color:#706e6e ;
+}
+#View-views{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 55px;
+}
+#Profile1{
+  justify-content: flex-start;
+  margin-left: 55px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top:2px solid rgb(228, 224, 224);
+  border-bottom:2px solid rgb(230, 226, 226);
+}
+#End{
+   width: 350px;
+   height: 200px;
+}/*only for land occupy*/
+
+
+#MoreReads{
+  margin-top: 80px;
+}
+#MoreReed-Title{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 30px;
+  border-bottom: 2px solid rgb(216, 212, 212);
+  font-size: 20px;
+  font-weight: 700;
+}
+#View-Container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(240, 238, 238);
+  width: 350px;
+  height: 440px;
+  margin-top: 20px;
+}
+#Inner-Title{
+  font-size: 16px;
+  text-align: left;
+  padding: 10px;
+}
+#Josh-Title,#Josh-Content{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#Josh-Title{
+  font-weight: 800;
+}
+#Profile2{
+  margin-top: 10px;
+  margin-left: 15px;
+  justify-content: left;
+}
+#Content-Loader{
+  display: flex;
+  justify-content: space-between;
+}
