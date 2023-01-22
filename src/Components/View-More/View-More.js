@@ -5,7 +5,7 @@ import ClapLogo from "../../Images/New/rythm.svg";
 import ViewMorePart1 from "./View-More-Part1";
 function ViewMore() {
     return (
-        <div>
+        <div id="overFlow">
             <div id="ViewTitle">
                 <div id="ViewContent">
                     <span id="the">The</span>
@@ -51,7 +51,7 @@ function ViewMore() {
                             Animation in ReactJs app is a popular topic and there are many ways to create different types of animations.Many developers create animation exclusively using css and adding classes to HTML tags. This is a great way and you should use it. If you want to create complex animations you can pay attention to GreenSock. GreenSock is the most powerful animation platform. There are also a lot of libraries, components for creating animation in React.
                         </div>
                         <div id="View-Para1">Let’s talk about them.</div>
-                        <div>
+                        <div id="code">
                             <img src={CodeLogo} width={450} alt="404_Error" />
                         </div>
                         <div id="View-Btn">

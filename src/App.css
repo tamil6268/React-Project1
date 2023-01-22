@@ -721,7 +721,7 @@
   }
 
   #container{
-    margin-top: 260px;
+    margin-top: 50px;
   }
   #main{
     position:absolute;
@@ -737,6 +737,10 @@
     right: 20px;
   }
 
+  .innerHtml1 .img{
+    width: 200px;
+    height: 100px;
+  }
   .innerHtml1 .img1 {
     margin-left: 10px;
     width:240px;
@@ -1037,4 +1041,105 @@
 #Content-Loader{
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width:400px) {
+  #Front{
+    display: none;
+  }
+  #End{
+    display: none;
+  }
+  #the {
+    font-size: 17px;
+    transform: translateZ(10px);
+    transform: rotateZ(270deg);
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  #siren {
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+    top: 8px;
+  }
+  #ViewTitle{
+    width: 400px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-right: 50px;
+    margin-left: 10px;
+    border-bottom: 2px solid thistle;
+  }
+  #btn{
+    position: relative;
+    top: 8px;
+    left: 40px;
+  }
+  #ways{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+  }
+  #View-React-Logo img{
+    width: 400px;
+    height: 180px;
+   position: relative;
+   right: 20px;
+  }
+  #code img{
+    width: 380px;
+    height: 500px;
+  }
+  #View-Para,#View-Para1{
+    width: 350px;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  #View-Para1{
+    margin-top: 20px;
+  }
+  #View-Btn{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+  }
+  #Content-Loader{
+    display: flex;
+    flex-direction:column ;
+  }
+  #Profile2{
+    display: none;
+  }
+  #View-Container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(240, 238, 238);
+    width: 350px;
+    height: 180px;
+    margin-top: 20px;
+  }
+  #media-for-reverse-direction{
+    display: flex;
+    flex-direction:row-reverse;
+  }
+  #pinky-img img{
+    width:100px;
+    height: 100px;
+  }
+  #Josh-Title{
+    display: none;
+  }
+  #overFlow{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #Box-Profile{
+    width: 400px;
+  }
+  #common{
+    width: 100%;
+  }
 }
